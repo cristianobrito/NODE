@@ -1,0 +1,7 @@
+as aulas 3 e 4 são uma continuação 
+na aula 3 foi a criação do http
+na aula 4 é a instalação do nodemon
+
+npm i nodemon --save 
+npm i nodemon 
+npm install -g nodemon 

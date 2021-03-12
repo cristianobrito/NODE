@@ -1,0 +1,12 @@
+crie uma pasta acesse ela pelo terminal e instale o express
+     npm i express
+
+     obs: antes tive que instalar o init package .json
+     npm init
+
+     lembre-se que só é possivel istalar o express depois de instalar a pasta node modules
+     com o comando npm init.descrito acima.
+
+req é para pegar uma informação ex: de um formulario
+
+res resposta é qundo eu quero exibir uma informação

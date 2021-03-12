@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=xHf34udx7VQ&list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9&index=9
+
+instale o package .json   " npm init "
+instale o express         " npm i express "
+
+app.get('/', function(req, res){
+        res.sendFile(__dirname + '/pagina.html');
+});
+
+para exibir um html simples
+
+para carregar varios arquivos segue abaixo 
+esse tutorial é a continuação da aula 5 html
+
+crie uma pasta dentro da pasta 05html chamada publico
+
+dentro da pasta publico crie mais 2 pastas 
+    imagens e css 
+
+dentro da pasta css crie o arquivo estilos.css
+

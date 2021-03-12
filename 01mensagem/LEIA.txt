@@ -1,0 +1,18 @@
+1 . crie uma pasta no cmd e entre nela pelo cmd e de o comando 
+    code .
+
+2 . crie uma pasta aula01
+
+3 . crie o arquivo app.js dentro da pasta aula01
+
+4 . edite esse app.js
+    console.log('ola mundo');
+
+5 . abra um terminal no proprio vscode e va ate essa pasta aula01
+
+6 . nesse terminal aberto nesse diretorio de o comando
+    node app.js
+
+http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/
+
+subir ao git

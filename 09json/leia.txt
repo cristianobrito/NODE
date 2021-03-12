@@ -1,0 +1,54 @@
+instalações necessarias 
+        npm init 
+        npm i json-server 
+
+1 . crie um arquivo com o nome de cursos.json 
+2 . para subir esse arquivo de o comando no terminal ou cmd 
+    json-server nome-do-arquivo 
+    json-server cursos.json 
+    npx json-server cursos.json 
+    essa ultima opção é a que da certo comigo 
+3 . npx json-server cursos.json
+4 . continuação aula 14 importante esse servidor em json-server deve estar rodando 
+
+5 . copy a url abra o postman click no sinal de mais + e deixe no metodh get cole sua url click em send 
+    pegando um curso especifico abra uma aba nova no postmam clicando no sinal de + não esqueça de clicar em send 
+    cole sua url e adicione /id o exemplo segue abaixo 
+    http://localhost:3000/cursos/1
+
+6 . como cadastrar 
+    abra uma nova aba no postmam clicando no + 
+    onde esta get troque para POST 
+    click no guia body do postman 
+    escolha a opção raw 
+    assim que voce escolhe raw abre uma guia TEXT com as opções escolha json 
+    digite os dados abaixo no postman 
+    {
+        "nome":"Angular",
+        "valor":900
+    }
+
+     coloque a url e click em send 
+     va no bowser e atualize a pagina 
+     veja tambem no vscode que a informação é inserida 
+
+7 . use o PUT ele é para alterar 
+    abra uma nova aba no postmam + 
+    cole a url http://localhost:3000/cursos 
+    onde tem post mude para PUT 
+    complete a url com o id do curso que vai ser alterado http://localhost:3000/cursos/3 isso no postmam 
+    va em body raw text json 
+    digite s caracteristicas do curso que voce vai alterar 
+    {
+        "nome":"React",
+        "valor":700
+    }
+    click em send 
+    confira atualizando a pagina e vendo no vs code 
+
+8 . use o DELETE para remover os cursos 
+    com base nos exemplos acima tente deletar 
+    no postmam cole com o id que deseja deletar a url http://localhost:3000/cursos/3
+    mude de put para DELETE 
+    click em send 
+    verifique na url e no vscode 

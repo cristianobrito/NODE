@@ -1,0 +1,25 @@
+<div class="container pt-3">
+  <h2 class="container text-center">Formulario CRUD em NODEJS</h2>
+  <form action="/editar" method="POST">
+  <img src="../img/user5.gif"  class="img-fluid mx-auto d-block " width="360" height="245">
+    <div class="form-group pt-3">
+      <div class="form-group">
+      <input type="text" value={{dados.id}} name="id" class="form-control" readonly> 
+      </div>
+      <input type="text" value={{dados.nome}} class="form-control" id="nome" placeholder="Nome" name="nome">
+    </div>
+    <div class="form-group">
+      <input type="text"  value={{dados.idade}} class="form-control" id="idade" placeholder="Idade" name="idade">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label"></label>
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container col-md-8 center-block text-center">
+    <input type="submit" value="Editar" class="btn btn-success text-center  col-md-2"></input>
+    <a href="/remover/{{dados.id}}" class="btn btn-warning col-2 text-center">Remover</a>
+    <a href="/" class="btn btn-danger col-2 text-center">Cancelar</a>
+    </div>
+  </form>
+</div>

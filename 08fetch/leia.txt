@@ -1,0 +1,19 @@
+links da aula e dos sites 
+https://www.youtube.com/watch?v=S3HHH4gYsmc&list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9&index=13 
+
+https://www.npmjs.com/package/node-fetch 
+
+https://jsonplaceholder.typicode.com/ 
+
+1 . instale o npm 
+    npm init 
+    npm i express 
+    npm node-fetch 
+
+2 . crie o arquivo app.js 
+3 . obs: .then(resposta => console.table(resposta)) essa linha era 
+        .then(resposta => console.log(resposta))
+        é só um metodo de visualização 
+        
+4 . continuação aula 13 
+5 . 

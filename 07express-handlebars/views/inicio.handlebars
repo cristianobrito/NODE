@@ -1,0 +1,15 @@
+<h1>Pagina de Inicio</h1>
+{{#if gostodenode}}
+   <p>QUE LEGAL</p>
+{{else}}
+    <p>QUE PENA :(</p>
+{{/if}}
+
+<table>
+    {{#each dados}}
+             <tr>
+                    <td>{{nome}}</td>
+                    <td>{{idade}}</td>
+             </tr>
+    {{/each}}
+</table>

@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=J1Xa_6E2fQY&list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9&index=11
+
+1 . acesse a pasta 07express-handlebars pelo cmd 
+
+2 . npm init 
+3 . npm i express 
+4 . npm i express-handlebars 
+5 . obs: a estrutura de diretorios não pode ser alterda 
+         app.js 
+         views 
+            home.handlebars 
+            layouts 
+                main.handlebars 
+
+6 . cire a pasta views dentro do diretorio 07express-handlebars 
+7 . dentro do diretorio views crie um arquivo chamado inicio.handlebars e outro chamado sobre,handlebars 
+8 . dentro do diretorio views crie outro diretorio chamado layout 
+9 . dentro do diretorio layouts crie um arquivo chamado principal.handlebars 
+10 .crie o arquivo app.js dentro do diretorio 07express-handlebars 
+11 . essa aula é a continuação da 10 
+12 . crie uma pasta dentro da pasta views chamada partials 
+13 . dentro do diretorio partials crie um arquivo chamado menu.handlebars 
+14 .   

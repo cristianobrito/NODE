@@ -1,0 +1,16 @@
+aqui no back só tem o json-server 
+1 . instalações:
+        [ npm init ]
+        [ npm i json-server ]
+
+2 . crie um arquivo chamado:
+        [ clientes.json ]
+
+3 . depois de editar o arquivo clientes.json suba o terminal com o comando:
+        [ npx json-server clientes.json ]
+
+4 . pegue a url e cole no browser 
+        [ http://localhost:3000/clientes ]
+
+5 . não feche esse terminal 
+6 . agora abra um novo vscode na pasta front 

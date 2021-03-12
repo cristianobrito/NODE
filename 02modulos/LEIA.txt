@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=Vp2xtzk6QyU&list=PLWXw8Gu52TRLBgfIclx1Nh8LA60knsxY9&index=3
+
+1 . var calculos = require('./calculos');
+    essa linha importa o arquivo calculos
+
+2 . essa linha exporta os modulos
+    module.exports = {
+    som, sub, mul, div
+    }
+
+3 . abra um novo terminal no diretorio aula02modulos 
+    e de o comando node app.js 
+
+    módulos são pequenas bibliotecas de codigo que podem ser importadas e exportadas
+    

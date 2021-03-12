@@ -1,0 +1,6 @@
+1 . crie um diretorio [ 10projeto ]
+2 . crie duas pastas dentro desse diretorio chamadas:
+        [ back ]
+        [ front ]
+3 . abra um novo vscode com a pasta back selecioanda 
+4 . 
